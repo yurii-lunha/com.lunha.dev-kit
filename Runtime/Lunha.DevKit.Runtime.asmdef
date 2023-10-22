@@ -1,0 +1,14 @@
+﻿{
+  "name": "Lunha.DevKit.Runtime",
+  "rootNamespace": "Lunha.DevKit.Runtime",
+  "references": [],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
