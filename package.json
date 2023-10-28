@@ -1,1 +1,20 @@
-{"name":"com.lunha-dev-kit","version":"0.0.1","description":"","displayName":"Lunha - Dev Kit","unity":"2022.3","author":{"name":"","email":"","url":""},"changelogUrl":"","dependencies":{},"documentationUrl":"","hideInEditor":true,"keywords":[],"license":"MIT","licensesUrl":"https://mit-license.org/","unityRelease":"10f1"}
+{
+  "name": "com.lunha-dev-kit",
+  "version": "0.0.1",
+  "description": "",
+  "displayName": "Lunha - Dev Kit",
+  "unity": "2022.3",
+  "author": {
+    "name": "Yurii Lunha",
+    "email": "yurii.lunha.dev@gmail.com",
+    "url": "https://www.linkedin.com/in/yurii-lunha/"
+  },
+  "changelogUrl": "https://github.com/yurii-lunha/com.lunha.dev-kit",
+  "dependencies": {},
+  "documentationUrl": "https://github.com/yurii-lunha/com.lunha.dev-kit",
+  "hideInEditor": true,
+  "keywords": ["extensions"],
+  "license": "MIT",
+  "licensesUrl": "https://mit-license.org/",
+  "unityRelease": "10f1"
+}
