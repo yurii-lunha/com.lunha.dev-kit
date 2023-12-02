@@ -1,6 +1,6 @@
 {
-  "name": "com.lunha-dev-kit",
-  "version": "0.0.3",
+  "name": "@ylunha/com.lunha-dev-kit",
+  "version": "0.0.4",
   "description": "C# extensions & utilities",
   "displayName": "Lunha - Dev Kit",
   "unity": "2022.3",
