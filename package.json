@@ -1,9 +1,9 @@
 {
   "name": "@ylunha/com.lunha-dev-kit",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "C# extensions & utilities",
   "displayName": "Lunha - Dev Kit",
-  "unity": "2022.3",
+  "unity": "2019.4",
   "author": {
     "name": "Yurii Lunha",
     "email": "yurii.lunha.dev@gmail.com",
@@ -16,5 +16,5 @@
   "keywords": ["extensions"],
   "license": "MIT",
   "licensesUrl": "https://mit-license.org/",
-  "unityRelease": "10f1"
+  "unityRelease": "40f1"
 }
