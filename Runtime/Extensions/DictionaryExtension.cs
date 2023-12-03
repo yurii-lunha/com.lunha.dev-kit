@@ -39,7 +39,7 @@ namespace Lunha.DevKit.Extensions
         public static T ToObject<T>(this Dictionary<string, object> dictionary, NameConventionType nameConvention)
             where T : class
         {
-            if (Activator.CreateInstance(typeof(T)) is not T objectInstance)
+            if (!(Activator.CreateInstance(typeof(T)) is T objectInstance))
             {
                 return null;
             }
