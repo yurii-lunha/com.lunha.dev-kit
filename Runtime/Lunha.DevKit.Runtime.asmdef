@@ -1,7 +1,8 @@
 {
     "name": "Lunha.DevKit.Runtime",
-    "rootNamespace": "Lunha.DevKit",
-    "references": [],
+    "references": [
+        "Cinemachine"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
@@ -9,6 +10,12 @@
     "precompiledReferences": [],
     "autoReferenced": false,
     "defineConstraints": [],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.cinemachine",
+            "expression": "2.6.17",
+            "define": "CINEMACHINE"
+        }
+    ],
     "noEngineReferences": false
 }
