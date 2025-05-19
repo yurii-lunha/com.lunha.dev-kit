@@ -1,5 +1,9 @@
 #if CINEMACHINE
+#if UNITY_6000
+using Unity.Cinemachine;
+#else
 using Cinemachine;
+#endif
 #endif
 
 using UnityEngine;
@@ -11,7 +15,23 @@ namespace Lunha.DevKit.CrossDevice
         [SerializeField] Camera _targetCamera;
 
 #if CINEMACHINE
+#if UNITY_6000
+        [SerializeField] CinemachineCamera _targetVirtualCamera;
+
+        float CinemachineFieldOfView
+        {
+            get => _targetVirtualCamera.Lens.FieldOfView;
+            set => _targetVirtualCamera.Lens.FieldOfView = value;
+        }
+#else
         [SerializeField] CinemachineVirtualCamera _targetVirtualCamera;
+
+        float CinemachineFieldOfView
+        {
+            get => _targetVirtualCamera.m_Lens.FieldOfView;
+            set => _targetVirtualCamera.m_Lens.FieldOfView = value;
+        }
+#endif
 #endif
 
         [SerializeField] float _safeArea = 0.0905f;
@@ -29,7 +49,7 @@ namespace Lunha.DevKit.CrossDevice
 #if CINEMACHINE
             if (_targetVirtualCamera)
             {
-                return _targetVirtualCamera.m_Lens.FieldOfView;
+                return CinemachineFieldOfView;
             }
 #endif
 
@@ -49,7 +69,7 @@ namespace Lunha.DevKit.CrossDevice
 #if CINEMACHINE
             if (_targetVirtualCamera)
             {
-                _targetVirtualCamera.m_Lens.FieldOfView = fov;
+                CinemachineFieldOfView = fov;
                 return;
             }
 #endif

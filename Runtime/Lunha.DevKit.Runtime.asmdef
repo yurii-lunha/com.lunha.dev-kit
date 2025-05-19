@@ -1,7 +1,9 @@
 {
     "name": "Lunha.DevKit.Runtime",
+    "rootNamespace": "",
     "references": [
-        "Cinemachine"
+        "Cinemachine",
+        "Unity.Cinemachine"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
